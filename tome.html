@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тематичні дослідження — Усі томи</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .tomes-grid { display: flex; gap: 48px; justify-content: center; margin: 80px 0; flex-wrap: wrap; }
+        .tome-card { flex: 0 1 340px; padding: 40px 32px; text-decoration: none; position: relative; transition: all 0.2s ease; background: white; box-shadow: 2px 3px 8px var(--shadow-sticky); border-radius: 3px; }
+        .tome-card:hover { transform: translateY(-4px) rotate(0deg); box-shadow: 3px 5px 12px rgba(0,0,0,0.18); }
+        .tome-card-tag { font-family: 'Reenie Beanie', cursive; font-size: 0.6rem; color: var(--text-dim); margin-bottom: 16px; display: block; }
+        .tome-card-number { font-family: 'Permanent Marker', cursive; font-size: 4rem; color: var(--text-pen); line-height: 1; margin-bottom: 8px; text-shadow: 2px 2px 0 var(--bg-sticky-yellow), 4px 4px 0 var(--bg-sticky-pink); }
+        .tome-card-title { font-family: 'Permanent Marker', cursive; font-size: 1.3rem; color: var(--text-pen); margin-bottom: 12px; line-height: 1.25; }
+        .tome-card-desc { font-family: 'Nunito', sans-serif; font-size: 0.9rem; color: var(--text-dim); line-height: 1.5; }
+        .tome-card-external { border: 2px dashed var(--rule-doodle); background: var(--bg-locker); }
+        .tome-card-external .tome-card-number { text-shadow: none; color: var(--text-dim); }
+        .tome-external-note { font-family: 'Reenie Beanie', cursive; font-size: 0.55rem; color: var(--text-dim); margin-top: 16px; padding-top: 12px; border-top: 1px dotted var(--rule-doodle); }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <header class="journal-header">
+            <div class="journal-masthead"><span>Тематичні дослідження · Том IV</span></div>
+            <div class="chapter-number" style="font-size: 3rem;">Томи</div>
+            <h1 class="article-title">оберіть том</h1>
+            <div class="article-subtitle">Багатотомне соціологічне дослідження впливу цифрових технологій на підлітків</div>
+            <div class="article-meta"><span>Кам'янський еколого-економічний ліцей</span><span>Соціологія</span><span>2026</span></div>
+        </header>
+        <div class="tomes-grid">
+            <a href="https://jjjjkek018-create.github.io/sociology/index.html" class="tome-card tome-card-external">
+                <div class="tome-card-tag">★ зовнішній том</div>
+                <div class="tome-card-number">I</div>
+                <div class="tome-card-title">Вплив соціальних мереж на підлітків</div>
+                <div class="tome-card-desc">Комплексний аналіз: від нейрофізіологічних детермінант до інституційних перспектив.</div>
+                <div class="tome-external-note">→ зовнішній сайт</div>
+            </a>
+            <a href="https://jjjjkek018-create.github.io/ai-effects/index.html" class="tome-card tome-card-external">
+                <div class="tome-card-tag">★ зовнішній том</div>
+                <div class="tome-card-number">II</div>
+                <div class="tome-card-title">ШІ, увага та наступна хвиля</div>
+                <div class="tome-card-desc">Від LLM-агентів до нейроінтерфейсів: глибока архітектура алгоритмічного впливу.</div>
+                <div class="tome-external-note">→ зовнішній сайт</div>
+            </a>
+            <a href="https://jjjjkek018-create.github.io/resistance-reconstruction/index.html" class="tome-card tome-card-external">
+                <div class="tome-card-tag">★ зовнішній том</div>
+                <div class="tome-card-number">III</div>
+                <div class="tome-card-title">Спротив, регулювання та реконструкція</div>
+                <div class="tome-card-desc">Правові архітектури, низові рухи, альтернативні інфраструктури.</div>
+                <div class="tome-external-note">→ зовнішній сайт</div>
+            </a>
+            <a href="index.html" class="tome-card">
+                <div class="tome-card-tag">♥ поточний том</div>
+                <div class="tome-card-number">IV</div>
+                <div class="tome-card-title">Тематичні дослідження цифрової трансформації</div>
+                <div class="tome-card-desc">Мікроаналіз: від справи Моллі Рассел до цифрового договору України в умовах війни.</div>
+            </a>
+            <a href="https://jjjjkek018-create.github.io/anthropological-question/index.html" class="tome-card tome-card-external">
+                <div class="tome-card-tag">★ зовнішній том</div>
+                <div class="tome-card-number">V</div>
+                <div class="tome-card-title">Антропологічне питання</div>
+                <div class="tome-card-desc">Філософська антропологія: підліток як біоіндикатор, онтологія цифрового суб'єкта.</div>
+                <div class="tome-external-note">→ зовнішній сайт</div>
+            </a>
+        </div>
+        <footer class="journal-footer"><span>Кам'янка · 2026</span><span>Тематичні дослідження · Том IV</span></footer>
+    </div>
+</body>
+</html>
